@@ -1,6 +1,6 @@
 # BERT Pre-Training Modular
 
-Implementación desde cero de la arquitectura BERT utilizando PyTorch y PyTorch Lightning, con soporte para RoPE (Rotary Position Embeddings) y MLM dinámico.
+Implementación desde cero de la arquitectura BERT utilizando PyTorch y PyTorch Lightning, con RoPE (Rotary Position Embeddings) y MLM dinámico.
 
 ## Inicialización rápida con uv
 
@@ -9,6 +9,8 @@ Implementación desde cero de la arquitectura BERT utilizando PyTorch y PyTorch 
 2. Ejecuta el entrenamiento:
    `uv run main.py`
 
+
+![val_loss](./images/val_loss_v1.png)
 ## Unit Tests
 
 3. uv run python -m unittest tests/test_architecture.py
